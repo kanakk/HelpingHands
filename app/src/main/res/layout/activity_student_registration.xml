@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".StudentRegistrationActivity">
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="193dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/pf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout3"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="489dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/signup_emailID"
+            android:layout_width="300dp"
+            android:layout_height="46dp"
+            android:hint="Email ID"
+            android:selectAllOnFocus="false"
+            android:singleLine="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout4"
+
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="548dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/signup_nameID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout5"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="457dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/signup_passwordID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputLayout6"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="362dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/signup_EducationID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Education"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/signup_nextButtonID"
+        android:layout_width="90dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="97dp"
+        android:text="NEXT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Signup_PhnID"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="409dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="264dp"
+        android:ems="10"
+        android:hint="Mobile No"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
