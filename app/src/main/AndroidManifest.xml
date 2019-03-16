@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".OrganizationProfileActivity"></activity>
+        <activity android:name=".StudentProfileActivity" />
+        <activity android:name=".FillRequestActivity" />
+        <activity android:name=".PostRequestActivity" />
+        <activity android:name=".OrganizationRegistrationActivity" />
+        <activity android:name=".StudentRegistrationActivity" />
+        <activity android:name=".RegistrationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
