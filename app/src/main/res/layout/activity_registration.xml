@@ -4,24 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg2"
     tools:context=".RegistrationActivity">
 
     <Button
         android:id="@+id/helperButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="229dp"
+        android:layout_width="162dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="455dp"
+        android:background="@drawable/roundedbutton"
         android:text="Are You A Helper?"
-        app:layout_constraintStart_toStartOf="@+id/seekingButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/seekingButton"
-        android:layout_width="153dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="82dp"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="347dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="332dp"
+        android:background="@drawable/roundedbutton"
         android:text="Seeking Help?"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/helperButton" />
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
+    android:background="@drawable/bg2"
     tools:context=".StudentRegistrationActivity">
 
     <!--<de.hdodenhof.circleimageview.CircleImageView
@@ -35,6 +36,8 @@
             android:layout_width="300dp"
             android:layout_height="46dp"
             android:hint="Email ID"
+            android:textColor="#FFFFFF"
+
             android:selectAllOnFocus="false"
             android:singleLine="true" />
     </android.support.design.widget.TextInputLayout>
@@ -52,12 +55,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
         <EditText
             android:id="@+id/signup_nameID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name"
+            android:textColor="#FFFFFF"
             android:inputType="textPersonName" />
     </android.support.design.widget.TextInputLayout>
 
@@ -65,6 +68,8 @@
         android:id="@+id/textInputLayout5"
         android:layout_width="300dp"
         android:layout_height="58dp"
+        android:textColor="#FFFFFF"
+
         android:layout_marginStart="48dp"
         android:layout_marginTop="216dp"
         android:layout_marginEnd="63dp"
@@ -100,6 +105,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Education"
+            android:textColor="#FFFFFF"
+
             android:inputType="text" />
     </android.support.design.widget.TextInputLayout>
 
@@ -112,6 +119,7 @@
         android:layout_marginEnd="186dp"
         android:layout_marginBottom="97dp"
         android:text="NEXT"
+        android:background="@drawable/roundedbutton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,6 +135,8 @@
         android:layout_marginBottom="264dp"
         android:ems="10"
         android:hint="Mobile No"
+        android:textColor="#FFFFFF"
+
         android:inputType="phone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
