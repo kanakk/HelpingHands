@@ -12,7 +12,14 @@ This application is all about making a open network where the organizations can 
 
 This application is developed within time period of 24 hours at Mumbai Hackathon 2019
 
+Note: 
+######  All codes are in Sudo2 branch
+
 Team: mCoder
+Members
+1 Kanak Kawadiwale
+2 Reshma Kendrepatil
+3 Amogh Kalyanshetti
 
 Application Screenshots
 
