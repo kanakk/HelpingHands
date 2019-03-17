@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".organization.OrganizationalTimeLineActivity"></activity>
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,15 +17,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrganizationProfileActivity" />
-        <activity android:name=".StudentProfileActivity" />
-        <activity android:name=".FillRequestActivity" />
-        <activity android:name=".PostRequestActivity" />
-        <activity android:name=".OrganizationRegistrationActivity" />
-        <activity android:name=".StudentRegistrationActivity" />
+        <activity android:name=".organization.OrganizationProfileActivity" />
+        <activity android:name=".student.StudentProfileActivity" />
+        <activity android:name=".student.FillRequestActivity" />
+        <activity android:name=".organization.PostRequestActivity" />
+        <activity android:name=".organization.OrganizationRegistrationActivity" />
+        <activity android:name=".student.StudentRegistrationActivity" />
         <activity android:name=".RegistrationActivity" />
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

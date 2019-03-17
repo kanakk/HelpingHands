@@ -1,7 +1,9 @@
-package com.example.helpinghands;
+package com.example.helpinghands.student;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.helpinghands.R;
 
 public class FillRequestActivity extends AppCompatActivity {
 

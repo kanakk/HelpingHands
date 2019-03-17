@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg2"
     android:theme="@style/AppTheme"
-    tools:context=".OrganizationRegistrationActivity">
+    tools:context=".organization.OrganizationRegistrationActivity">
 
     <EditText
         android:id="@+id/Organization_ID"
@@ -15,10 +15,41 @@
         android:layout_height="58dp"
 
         android:layout_marginStart="55dp"
-        android:layout_marginTop="130dp"
-        android:layout_marginBottom="543dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="593dp"
         android:hint="Organization Name"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/organizationEmailID"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="502dp"
+        android:hint="Organization Email ID"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordIDOrg"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="56dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,9 +59,9 @@
         android:layout_height="58dp"
 
         android:layout_marginStart="55dp"
-        android:layout_marginTop="225dp"
+        android:layout_marginTop="365dp"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="448dp"
+        android:layout_marginBottom="308dp"
         android:hint="City Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,15 +69,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/Legacy_ID"
+        android:id="@+id/LocalityID"
         android:layout_width="300dp"
         android:layout_height="58dp"
 
         android:layout_marginStart="55dp"
-        android:layout_marginTop="336dp"
+        android:layout_marginTop="459dp"
         android:layout_marginEnd="56dp"
-        android:layout_marginBottom="337dp"
-        android:hint="Locality "
+        android:layout_marginBottom="214dp"
+        android:hint="Locality"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,10 +87,10 @@
         android:id="@+id/postrequestID"
         android:layout_width="157dp"
         android:layout_height="63dp"
-        android:layout_marginStart="117dp"
-        android:layout_marginTop="524dp"
-        android:layout_marginEnd="137dp"
-        android:layout_marginBottom="144dp"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="107dp"
         android:background="@drawable/roundedbutton"
         android:text="Post Request"
         app:layout_constraintBottom_toBottomOf="parent"

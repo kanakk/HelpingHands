@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.example.helpinghands.organization.PostRequestActivity;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void sendToAfterLoginPage()
     {
-        Intent startIntent=new Intent(MainActivity.this,PostRequestActivity.class);
+        Intent startIntent=new Intent(MainActivity.this, PostRequestActivity.class);
         startActivity(startIntent);
         finish();//to disable the back button
     }

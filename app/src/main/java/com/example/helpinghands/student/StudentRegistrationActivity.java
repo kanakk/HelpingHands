@@ -1,10 +1,12 @@
-package com.example.helpinghands;
+package com.example.helpinghands.student;
 
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.helpinghands.MainActivity;
+import com.example.helpinghands.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -112,7 +114,7 @@ public class StudentRegistrationActivity extends AppCompatActivity {
                             if(task.isSuccessful())
                             {
                                 mregProgress.dismiss();
-                                Intent mainIntent=new Intent(StudentRegistrationActivity.this,MainActivity.class);
+                                Intent mainIntent=new Intent(StudentRegistrationActivity.this, MainActivity.class);
                                 mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);////pressing back will not go to the register page
                                 startActivity(mainIntent);
                                 finish();

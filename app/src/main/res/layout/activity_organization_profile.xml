@@ -4,6 +4,157 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OrganizationProfileActivity">
+    android:background="@drawable/bg1"
+    tools:context=".organization.OrganizationalTimeLineActivity">
 
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="283dp"
+        android:layout_height="59dp"
+
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="647dp"
+        android:text="Need Helping Hands"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Reguest_nameID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="567dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Request_collegeID"
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="495dp"
+        android:ems="10"
+        android:hint="College Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Request_SubjectID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="55dp"
+        android:ems="10"
+        android:hint="Subject"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Request_DateID"
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="181dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/request_VenueID"
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="99dp"
+        android:ems="10"
+        android:hint="Venue"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Request_TimeId"
+        android:layout_width="302dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="267dp"
+        android:ems="10"
+        android:hint="Duration"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Request_MobileID"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="336dp"
+        android:ems="10"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="145dp"
+        android:layout_height="59dp"
+
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="646dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/roundedbutton"
+        android:text="Put Request"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

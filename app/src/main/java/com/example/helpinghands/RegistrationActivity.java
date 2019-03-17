@@ -1,22 +1,13 @@
 package com.example.helpinghands;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
-
-import java.util.HashMap;
+import com.example.helpinghands.organization.OrganizationRegistrationActivity;
+import com.example.helpinghands.student.StudentRegistrationActivity;
 
 
 public class RegistrationActivity extends AppCompatActivity {
@@ -41,7 +32,7 @@ public class RegistrationActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(RegistrationActivity.this,StudentRegistrationActivity.class);
+                Intent intent=new Intent(RegistrationActivity.this, StudentRegistrationActivity.class);
                 startActivity(intent);
             }
         });
@@ -49,7 +40,7 @@ public class RegistrationActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(RegistrationActivity.this,OrganizationRegistrationActivity.class);
+                Intent intent=new Intent(RegistrationActivity.this, OrganizationRegistrationActivity.class);
                 startActivity(intent);
             }
         });

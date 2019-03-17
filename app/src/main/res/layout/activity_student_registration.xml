@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@drawable/bg2"
-    tools:context=".StudentRegistrationActivity">
+    tools:context=".student.StudentRegistrationActivity">
 
     <!--<de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/settings_image"
@@ -23,9 +23,9 @@
         android:layout_width="300dp"
         android:layout_height="58dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="489dp"
+        android:layout_marginTop="136dp"
         android:layout_marginEnd="63dp"
-        android:layout_marginBottom="184dp"
+        android:layout_marginBottom="537dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -38,8 +38,7 @@
             android:hint="Email ID"
             android:selectAllOnFocus="false"
 
-            android:singleLine="true"
-             />
+            android:singleLine="true" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -48,9 +47,9 @@
         android:layout_width="300dp"
         android:layout_height="58dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="57dp"
         android:layout_marginEnd="63dp"
-        android:layout_marginBottom="548dp"
+        android:layout_marginBottom="616dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,21 +60,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Name"
-            android:inputType="textPersonName"
-             />
+            android:inputType="textPersonName" />
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
         android:id="@+id/textInputLayout5"
         android:layout_width="300dp"
         android:layout_height="58dp"
+
         android:layout_marginStart="48dp"
-
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="230dp"
         android:layout_marginEnd="63dp"
-        android:layout_marginBottom="457dp"
-
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -93,10 +88,8 @@
         android:layout_width="300dp"
         android:layout_height="58dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="311dp"
+        android:layout_marginTop="318dp"
         android:layout_marginEnd="63dp"
-        android:layout_marginBottom="362dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -116,12 +109,10 @@
         android:layout_width="90dp"
         android:layout_height="58dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="582dp"
+        android:layout_marginTop="544dp"
         android:layout_marginEnd="161dp"
-        android:layout_marginBottom="91dp"
         android:background="@drawable/roundedbutton"
         android:text="NEXT"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -131,13 +122,13 @@
         android:layout_width="300dp"
         android:layout_height="58dp"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="409dp"
+        android:layout_marginTop="414dp"
         android:layout_marginEnd="63dp"
-        android:layout_marginBottom="264dp"
+
+        android:layout_marginBottom="259dp"
         android:ems="10"
         android:hint="Mobile No"
         android:inputType="phone"
-
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
